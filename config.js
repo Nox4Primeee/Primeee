@@ -3,10 +3,10 @@ require('dotenv').config();
 
 module.exports = {
   // --- IDENTITÉ ---
-  botName: process.env.BOT_NAME || 'REN-MDX',
-  ownerName: process.env.OWNER_NAME || 'Admin',
-  ownerNumber: (process.env.OWNER_NUMBER || '237650471093').split(','), // Support multi-owner via virgule
-  phoneNumber: process.env.OWNER_NUMBER || '237650471093', // Pour pairing code
+  botName: process.env.BOT_NAME || 'Lɪʟɪᴛʜ Xᴅ',
+  ownerName: process.env.OWNER_NAME || '©𝐍𝚯𝐗',
+  ownerNumber: (process.env.OWNER_NUMBER || '213781337203').split(','), // Support multi-owner via virgule
+  phoneNumber: process.env.OWNER_NUMBER || '213781337203', // Pour pairing code
   prefix: process.env.PREFIX || '.',
 
   // --- PARAMÈTRES INTERNES ---
@@ -15,8 +15,8 @@ module.exports = {
   autoRead: process.env.AUTO_READ === 'true',
   
   // --- NEWSLETTER & LINKS ---
-  newsletterJid: process.env.NEWSLETTER_JID || '120363420601379038@newsletter',
-  logoUrl: process.env.LOGO_URL || 'https://i.postimg.cc/8cKZBMZw/lv-0-20251105211949.jpg',
+  newsletterJid: process.env.NEWSLETTER_JID || '120363422324286734@newsletter',
+  logoUrl: process.env.LOGO_URL || 'https://i.postimg.cc/br51hqgF/b50df8639d204922b02c66d1bbfd697b.jpg',
 
   // --- OPTIMISATIONS ---
   syncFullHistory: false, 
